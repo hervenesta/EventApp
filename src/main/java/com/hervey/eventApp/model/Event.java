@@ -30,6 +30,10 @@ public class Event {
 
     public Event() {
     }
+    
+    public Event(String name){
+        this.name = name;
+    }
 
     public Event(String name, String description){
         this.name = name;
