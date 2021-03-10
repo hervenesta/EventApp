@@ -31,8 +31,9 @@ public class Event {
     public Event() {
     }
     
-    public Event(String name){
+    public Event(String name, String duration){
         this.name = name;
+        this.duration = duration;
     }
 
     public Event(String name, String description){
