@@ -31,9 +31,9 @@ public class Event {
     public Event() {
     }
     
-    public Event(String name, String duration){
+    public Event(String name, long id){
         this.name = name;
-        this.duration = duration;
+        this.id = id;
     }
 
     public Event(String name, String description){
