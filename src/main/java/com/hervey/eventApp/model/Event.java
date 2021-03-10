@@ -31,8 +31,9 @@ public class Event {
     public Event() {
     }
     
-    public Event(String name){
+    public Event(String name, long id){
         this.name = name;
+        this.id = id;
     }
 
     public Event(String name, String description){
