@@ -31,6 +31,11 @@ public class Event {
     public Event() {
     }
 
+    public Event(String name, String description){
+        this.name = name;
+        this.description = description;
+    }
+
     public long getId() {
         return id;
     }
