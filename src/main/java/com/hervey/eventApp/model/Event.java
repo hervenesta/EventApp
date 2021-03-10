@@ -30,6 +30,10 @@ public class Event {
 
     public Event() {
     }
+    
+    public Event(String name){
+        this.name = name;
+    }
 
     public long getId() {
         return id;
